@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vista Admin</title>
+    <link rel="stylesheet" href="estils.css">
+</head>
+<body>
+    <div class="admin-container">
+        <div class="admin-header"></div>
+        <div class="admin-sidebar"></div>
+        
+        <img class="admin-logo" src="Imatges/sapa.png" alt="Logo">
+        
+        <a href="vista_profe.html">
+        <div class="admin-menu-item admin-inici">Inici</div>
+        </a>
+        <a href="vista_profe_llista.html">
+        <div class="admin-menu-item admin-reset">Passar llista</div>
+        </a>
+        <div class="admin-menu-item admin-grups">Modificar projectes</div>
+
+        <img class="admin-icon1" src="Imatges/projectes.png" alt="Icona">
+        <img class="admin-icon3" src="Imatges/home.png" alt="Icona">
+        <img class="admin-icon4" src="Imatges/llista.png" alt="Icona">
+
+        <div class="admin-profile-circle"></div>
+        <img class="admin-notification" src="Imatges/notificacions.png" alt="Notificacions">
+        <img class="admin-settings" src="Imatges/settings.png" alt="Configuració">
+        <img class="admin-dashboard" src="Imatges/preguntes.png" alt="Dashboard">
+
+        <div class="admin-projectes-container">
+            <div class="admin-projectes-title">Projectes del professor XXXXXXX</div>
+            <div class="admin-projectes-table">
+                <div class="admin-projectes-row">
+                    <div class="admin-projectes-cell admin-projectes-cell-nom">Nom</div>
+                    <div class="admin-projectes-cell admin-projectes-cell-propietari">Propietari</div>
+                    <div class="admin-projectes-cell admin-projectes-cell-grup">Grup</div>
+                    <div class="admin-projectes-cell admin-projectes-cell-total">Total</div>
+                </div>
+                <div class="admin-projectes-row">
+                    <div class="admin-projectes-cell admin-projectes-cell-nom">Nom 1</div>
+                    <div class="admin-projectes-cell admin-projectes-cell-propietari">
+                        <div class="admin-projectes-avatar"></div>
+                        <div class="admin-projectes-nom">nom</div>
+                    </div>
+                    <div class="admin-projectes-cell admin-projectes-cell-grup">Grup 1</div>
+                    <div class="admin-projectes-cell admin-projectes-cell-total">
+                        <div class="admin-projectes-progress">
+                            <div class="admin-projectes-progress-bar" style="width: 50%;"></div>
+                        </div>
+                        <div class="admin-projectes-progress-text">75/160h</div>
+                    </div>
+                </div>
+                <div class="admin-projectes-row">
+                    <div class="admin-projectes-cell admin-projectes-cell-nom">Nom 2</div>
+                    <div class="admin-projectes-cell admin-projectes-cell-propietari">
+                        <div class="admin-projectes-avatar"></div>
+                        <div class="admin-projectes-nom">nom</div>
+                    </div>
+                    <div class="admin-projectes-cell admin-projectes-cell-grup">Grup 2</div>
+                    <div class="admin-projectes-cell admin-projectes-cell-total">
+                        <div class="admin-projectes-progress">
+                            <div class="admin-projectes-progress-bar" style="width: 30%;"></div>
+                        </div>
+                        <div class="admin-projectes-progress-text">60/230h</div>
+                    </div>
+                </div>
+            </div>
+            <a href="vista_profe_projectes_add.html">
+            <div class="admin-projectes-add-button">+ Afegir projecte</div>
+            </a>
+        </div>
+
+        <div class="admin-divider">
+            <svg width="2" height="38" viewbox="0 0 2 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 0.5L1 37.5" stroke="#0D1B2A" stroke-width="2"/>
+            </svg>
+        </div>
+    </div>
+</body>
+</html>
